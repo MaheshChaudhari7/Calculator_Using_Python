@@ -1,53 +1,140 @@
 
 # 🧮 Python Calculator
 
-Hey there! This is a small **Python calculator** I made.  
-It can do **addition, subtraction, multiplication, and division**.  
+A simple command-line calculator built with Python. Nothing fancy — just clean, beginner-friendly code that gets the job done.
 
+---
 
+## 📌 Table of Contents
 
-## 🎯 How it works
+- [About](#about)
+- [Features](#features)
+- [Requirements](#requirements)
+- [How to Run](#how-to-run)
+- [Example](#example)
+- [Project Structure](#project-structure)
+- [Author](#author)
 
-1. You enter **two numbers**  
-2. Choose the **operation** (`+`, `-`, `*`, `/`)  
-3. It shows the **result** instantly!  
+---
 
+## 📖 About
 
+This is a beginner Python project I built to understand how `match-case` works in Python 3.10+. It takes two numbers and an operator from the user and instantly shows the result. Simple, clean, and easy to read.
 
-## ⚡ Features
+---
 
-- Simple & beginner-friendly  
-- Uses **Python match-case** (Python 3.10+)  
-- Clean and easy to understand  
+## ✨ Features
 
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- ⚠️ Error handling for wrong operators
+- Uses **Python match-case** (modern Python 3.10+ syntax)
+- Beginner-friendly code — easy to understand and modify
 
+---
 
-## 🛠️ How to Run
+## ✅ Requirements
 
-1. Open terminal in this folder  
-2. Run:
+- **Python 3.10 or higher**
 
+Check your version:
+```bash
+python --version
+```
+
+> If you have Python 3.9 or below, `match-case` won't work. Update Python from [python.org](https://www.python.org/downloads/)
+
+---
+
+## 🚀 How to Run
+
+**Step 1 — Clone or download the project**
+
+```bash
+git clone https://github.com/MaheshChaudhari7/python-calculator.git
+cd python-calculator
+```
+
+**Step 2 — Run the file**
+
+```bash
 python Calculator.py
- 
- ## 📸 Example
+```
 
- Enter the first number: 10
+That's it. No installations needed. No dependencies. Just pure Python.
+
+---
+
+## 📸 Example
+
+```
+Enter the first number: 10
 Enter the second number: 5
+
+What operation do you want to perform?
+  +  for Addition
+  -  for Subtraction
+  *  for Multiplication
+  /  for Division
+
 Enter the operator: +
 
-## Output:
-the result is: 15
+The result is: 15
+```
 
-## ❗ Notes
+**Division example:**
+```
+Enter the first number: 20
+Enter the second number: 4
+Enter the operator: /
 
-Python version 3.10 or higher is required
+The result is: 5.0
+```
 
-Wrong operator = shows error message
+**Wrong operator:**
+```
+Enter the operator: %
 
+There was an error. Please use +, -, *, / only.
+```
 
-## 👨‍💻 About Me
+---
 
+## 📁 Project Structure
 
-GitHub: MaheshChaudhari7
+```
+python-calculator/
+│
+├── Calculator.py     ← Main file (run this)
+└── README.md         ← You are reading this
+```
+
+---
+
+## 🔮 Future Improvements
+
+Things I might add later:
+
+- [ ] Square root and power operations
+- [ ] Continuous calculation (loop until user exits)
+- [ ] GUI version using Tkinter
+- [ ] History of calculations
+
+---
+
+## 👨‍💻 Author
+
+**Mahesh Chaudhari**
+- GitHub: [@MaheshChaudhari7](https://github.com/MaheshChaudhari7)
+
+---
+
+## 📄 License
+
+This project is open source and free to use for learning purposes.
+
+---
 
 
